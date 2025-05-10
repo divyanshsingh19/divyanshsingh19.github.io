@@ -1,0 +1,475 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #121826;
+    color: white;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: color 0.3s;
+    opacity: 0.7;
+}
+
+.nav-links a:hover {
+    opacity: 1;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 547px;
+    height: 534px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.cta {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+button {
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.login-btn {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: linear-gradient(90deg, #c084fc, #8b5cf6);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+    background: linear-gradient(90deg, #a855f7, #6b21a8);
+}
+
+.signup-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.signup-btn:hover {
+    background-color: rgba(52, 152, 219, 0.1); /* Light blue tint on hover */
+    color: white;
+    border-color: #AF7FF1;
+}
+
+.community-chat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem;
+    background-color: #fff;
+    margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    flex-direction: row-reverse; /* This reverses the order */
+}
+
+.chat-content {
+    flex: 1;
+    max-width: 600px;
+    padding-left: 2rem; /* Changed from padding-right */
+}
+
+.chat-image {
+    flex: 1;
+    text-align: center;
+}
+
+/* Rest of your existing CSS remains the same */
+.chat-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.community-chat h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.chat-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.chat-quote {
+    font-style: italic;
+    color: #666;
+    border-left: 3px solid #3498db;
+    padding-left: 1.5rem;
+    margin: 2rem 0;
+    line-height: 1.6;
+}
+
+.chat-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(90deg, #c084fc, #8b5cf6);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.chat-btn:hover {
+    background: linear-gradient(90deg, #a855f7, #6b21a8);
+}
+
+/* Collaboration Hub Section*/
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0d0c1d;
+    color: #ffffff;
+}
+
+.collab-section {
+    padding: 80px 10%;
+    background-color: #0d0c1d;
+}
+
+.collab-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.collab-text {
+    flex: 1;
+    max-width: 500px;
+}
+
+.collab-text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.collab-text .quote {
+    font-style: italic;
+    color: #b8b8ff;
+    margin-bottom: 20px;
+}
+
+.collab-text .desc {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #cccccc;
+}
+
+.btn-purple {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(90deg, #c084fc, #8b5cf6);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-purple:hover {
+     background: linear-gradient(90deg, #a855f7, #6b21a8);
+}
+
+.collab-image {
+    flex: 1;
+    text-align: center;
+}
+
+.collab-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Interactive Classroom Section (Image Left/Content Right) */
+.classroom-section {
+    padding: 80px 10%;
+    background-color: #0d0c1d;
+}
+
+.classroom-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.classroom-image {
+    flex: 1;
+    text-align: center;
+}
+
+.classroom-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.classroom-text {
+    flex: 1;
+    max-width: 500px;
+}
+
+.classroom-text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.classroom-text .quote {
+    font-style: italic;
+    color: #b8b8ff;
+    margin-bottom: 20px;
+}
+
+.classroom-text .desc {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #cccccc;
+}
+
+.btn-purple {
+    display: inline-block;
+    background: linear-gradient(to right, #c084fc, #8b5cf6);
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn-purple:hover {
+    background: linear-gradient(to right, #a855f7, #6d28d9);
+}
+
+/* Our Team */
+.team-section {
+    background-color: #f2eaff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.team-title {
+    background: linear-gradient(to right, #c084fc, #8b5cf6);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.team-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 20px;
+    width: 220px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 12px 25px rgba(128, 90, 213, 0.3); /* Purple glow */
+}
+
+
+.team-card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team-card h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.team-card p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.4;
+}
+
+/* Footer */
+.section {
+      padding: 60px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .section.reverse {
+      flex-direction: row-reverse;
+    }
+    .text {
+      flex: 1;
+      padding: 20px;
+      max-width: 600px;
+    }
+    .text h2 {
+      font-size: 32px;
+      color: white;
+      margin-bottom: 10px;
+    }
+    .text p {
+      color: #ccc;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    .image {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+    }
+    .image img {
+      max-width: 100%;
+      height: auto;
+    }
+    footer {
+      background-color: #181818;
+      color: #ccc;
+      padding: 40px;
+      text-align: center;
+      font-size: 14px;
+    }
+    .footer-columns {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .footer-col h4 {
+      color: white;
+      margin-bottom: 10px;
+    }
+    .footer-col ul {
+      list-style: none;
+      padding: 0;
+    }
+    .footer-col ul li {
+      margin: 5px 0;
+    }
+    .footer-col ul li a {
+      text-decoration: none;
+      color: #ccc;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: #ccc;
+      text-decoration: none;
+      font-size: 18px;
+    }
