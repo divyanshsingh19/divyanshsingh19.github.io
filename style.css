@@ -473,3 +473,256 @@ body {
       text-decoration: none;
       font-size: 18px;
     }
+
+    /* Mobile and Tablet Styles */
+@media screen and (max-width: 768px) {
+    /* Header */
+    header {
+        padding: 1rem;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 3.5rem;
+        right: 0;
+        background-color: white;
+        width: 200px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links li {
+        margin: 1rem;
+    }
+
+    .logo {
+        font-size: 1.6rem;
+    }
+
+    .nav-links a {
+        font-size: 1.1rem;
+    }
+
+    /* Hero Section */
+    .hero {
+        flex-direction: column;
+        padding: 2rem 2rem;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .tagline, .cta {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+        margin-top: 1.5rem;
+    }
+
+    .buttons {
+        display: inline-flex;
+        gap: 1rem;
+        flex-direction: row;
+        margin-top: 1.5rem;
+    }
+
+    button {
+        padding: 0.8rem 1.5rem; /* Reduced padding */
+        font-size: 1rem;
+    }
+
+    /* Community Chat Section */
+    .community-chat {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .chat-content {
+        padding-left: 0;
+        margin-top: 1.5rem;
+    }
+
+    .chat-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Collaboration Hub Section */
+    .collab-section {
+        padding: 60px 5%;
+    }
+
+    .collab-container {
+        flex-direction: column;
+    }
+
+    .collab-text h2 {
+        font-size: 28px;
+    }
+
+    .collab-text .desc {
+        font-size: 14px;
+    }
+
+    /* Classroom Section */
+    .classroom-section {
+        padding: 60px 5%;
+    }
+
+    .classroom-container {
+        flex-direction: column;
+    }
+
+    .classroom-text h2 {
+        font-size: 28px;
+    }
+
+    .classroom-text .desc {
+        font-size: 14px;
+    }
+
+    /* Team Section */
+    .team-grid {
+        flex-direction: column;
+    }
+
+    .team-card {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Footer */
+    footer {
+        padding: 20px;
+    }
+
+    .footer-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-col {
+        margin-bottom: 1.5rem;
+    }
+
+    .social-icons a {
+        font-size: 16px;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 480px) {
+    /* Header */
+    .logo {
+        font-size: 1.4rem;
+    }
+
+    .nav-links li {
+        margin-left: 1rem;
+    }
+
+    /* Hero Section */
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .tagline {
+        font-size: 1rem;
+    }
+
+    .cta {
+        font-size: 1.2rem;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Community Chat Section */
+    .community-chat h2 {
+        font-size: 2rem;
+    }
+
+    .chat-description {
+        font-size: 1rem;
+    }
+
+    .chat-quote {
+        font-size: 1rem;
+    }
+
+    .chat-btn {
+        font-size: 1rem;
+    }
+
+    /* Collaboration Hub Section */
+    .collab-text h2 {
+        font-size: 24px;
+    }
+
+    .collab-text .desc {
+        font-size: 14px;
+    }
+
+    /* Classroom Section */
+    .classroom-text h2 {
+        font-size: 24px;
+    }
+
+    .classroom-text .desc {
+        font-size: 14px;
+    }
+
+    /* Team Section */
+    .team-title {
+        font-size: 18px;
+    }
+
+    .team-card {
+        width: 100%;
+    }
+
+    .team-card img {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* Footer */
+    footer {
+        font-size: 12px;
+    }
+
+    .footer-col h4 {
+        font-size: 16px;
+    }
+
+    .footer-col ul li {
+        font-size: 12px;
+    }
+
+    .social-icons a {
+        font-size: 14px;
+    }
+}
+
+/* Mobile and Tablet Adjustments for Collaboration and Classroom Sections */
+@media screen and (max-width: 768px) {
+    /* Collaboration Hub: Image on Top, Content on Bottom */
+    .collab-container {
+        flex-direction: column-reverse; /* Image on top, content below */
+    }
+
+    /* Classroom Section: Content on Top, Image on Bottom */
+    .classroom-container {
+        flex-direction: column; /* Content on top, image on bottom */
+    }
+}
