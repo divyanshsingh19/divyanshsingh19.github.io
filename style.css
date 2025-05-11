@@ -118,12 +118,17 @@ button {
     display: inline-block;
     padding: 1rem 2.5rem;
     background: linear-gradient(90deg, #c084fc, #8b5cf6);
-    color: #fff;
+    
     border: none;
     border-radius: 50px;
     text-decoration: none;
-    font-weight: bold;
+    
     transition: background 0.3s ease;
+}
+.login-btn a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .login-btn:hover {
