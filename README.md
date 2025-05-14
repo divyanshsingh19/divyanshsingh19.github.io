@@ -6,7 +6,7 @@
 
 ***PeersHub is an all-in-one platform designed to foster peer-to-peer learning, project collaboration, and skill development among students and young professionals. Whether you're looking to team up on projects, share knowledge, or enhance your professional network, PeerHub provides a seamless ecosystem to connect with like-minded peers.
 
-✨ Key Features:
+✨ Key Features: <br>
 🌐 Collaboration Hub: Post ideas, find teammates, and collaborate on real projects.
 
 🏫 Interactive Classroom: Join virtual rooms for live coding, mentorship, and discussions.
